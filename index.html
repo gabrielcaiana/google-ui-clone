@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Google</title>
-</head>
-<body>
- 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Google</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__content">
+        <ul class="header__list">
+          <li class="header__list__item">
+            <a class="header__list__item__link" href="">Gmail</a>
+          </li>
+          <li class="header__list__item">
+            <a class="header__list__item__link" href="">Imagens</a>
+          </li>
+          <li class="header__list__item">
+            <a class="header__list__item__link" href=""
+              ><img
+                class="header__list__item__link__icon"
+                src="./assets/apps.png"
+                alt="aplicativos Google"
+            /></a>
+          </li>
+          <li class="header__list__item">
+            <a class="header__list__item__link" href=""
+              ><span class="header__list__item__link__user">G</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__content">
+        <img class="main__logo" src="./assets/logo.png" alt="Google" />
+        <div class="main__content__search">
+          <img
+            class="main__content__search__icon"
+            src="./assets/search.svg"
+            alt="icon search"
+          />
+          <input class="main__content__search__input" type="text" />
+          <img
+            class="main__content__search__icon"
+            src="./assets/keyboard.svg"
+            alt="icon keyboard"
+          />
+          <img
+            class="main__content__search__icon"
+            src="./assets/mic.svg"
+            alt="Google microphone"
+          />
+        </div>
+        <div class="main__content__options">
+          <button class="main__content__options__btn">Pesquisar Google</button>
+          <button class="main__content__options__btn">Estou com sorte</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span class="footer__location">Brasil</span>
+      <div class="footer__diviser"></div>
+      <div class="footer__content">
+        <ul class="footer__content__list">
+          <li class="footer__content__list__item">Publicidade</li>
+          <li class="footer__content__list__item">Negócios</li>
+          <li class="footer__content__list__item">Sobre</li>
+          <li class="footer__content__list__item">Como funciona a pesquisa</li>
+        </ul>
+
+        <ul class="footer__content__list">
+          <li class="footer__content__list__item">Privacidade</li>
+          <li class="footer__content__list__item">Termos</li>
+          <li class="footer__content__list__item">Configurações</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
